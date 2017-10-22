@@ -1,4 +1,3 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-    var url = "http://techtabor.agondolkodasorome.hu";
-    chrome.tabs.create({url: url});
+    chrome.tabs.executeScript(tab.id, {file: "content_script.js"})
 });

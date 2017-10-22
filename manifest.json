@@ -1,15 +1,16 @@
 {
-  "name": "Techtábor könyvjelző",
-  "description": "This extension will lead you directly to techtabor website",
+  "name": "Background purpler",
+  "description": "This extension will turn the background purple",
   "version": "1.0",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": [],
+  "permissions" : [
+    "<all_urls>"
+  ],
   "browser_action": {
-      "default_title": "Tech tábor",
-      "default_icon": "icon_128.png"
+      "default_icon": "purple_icon.png"
   },
   "manifest_version": 2
 } 

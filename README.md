@@ -1,3 +1,3 @@
-## Bookmark chrome extension
+## Background purpler chrome extension
 
-Clicking this extension's icon will open a new tab with Tech Tábor's website.
+Clicking this extension's icon will make the background purple.
