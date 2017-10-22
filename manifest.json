@@ -3,7 +3,8 @@
   "description": "This extension will lead you directly to techtabor website",
   "version": "1.0",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "permissions": [],
   "browser_action": {
