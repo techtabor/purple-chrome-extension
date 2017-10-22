@@ -1,0 +1,14 @@
+{
+  "name": "Techtábor könyvjelző",
+  "description": "This extension will lead you directly to techtabor website",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [],
+  "browser_action": {
+      "default_title": "Tech tábor",
+      "default_icon": "icon_128.png"
+  },
+  "manifest_version": 2
+} 
